@@ -1,6 +1,6 @@
 
 .container{
-    display: block;
+    text-align: center;
 }
 h1{
     font-size: 230px;
@@ -9,15 +9,17 @@ h1{
     font-style: normal;
     color: goldenrod;
     text-align: center;
-    line-height: 80%;
+    line-height: 12rem;
+
 }
 
-p{
+.text{
     font-family:YAFdtQNSRR0-0;
     font-style: italic;
     text-align: center;
     font-size: 50px;
     padding: 20px 150px;
+    color: black;
 }
 
 h2{
@@ -26,4 +28,111 @@ h2{
     font-weight: 550;
     color: goldenrod;
     font-size: 130px;
+    padding-bottom: 20px;
 }
+hr{
+    height: 20px;
+    background-color: rgb(133, 129, 132);
+    border: 0;
+
+}
+.section3{
+    text-align: center;
+}
+img{
+    padding-top: 15px;
+}
+.villa{
+    padding-top: 15px;
+    width: 75%;
+    height: 75%;
+    border-radius: 2rem;
+}
+
+.location, .people{
+    font-family:YAFdtQNSRR0-0;
+    font-weight: 500;
+    font-size: 40px;
+    margin:0;
+    line-height: 3rem;
+    color: black;
+}   
+.loc{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.contain{
+    text-align: center;
+    display: inline;
+  }
+  .btn1{
+    font-size: 25px;
+    width: 400px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid rgba(119, 1, 1, 0.877);
+    border-radius: 2rem ;
+    color: rgb(248, 248, 248);
+    text-decoration: none;
+    background-color: rgba(119, 1, 1, 0.877);
+    margin-bottom: 15px;
+   
+  }
+  .people{
+    display: inline-block;
+    width: 38%;
+    padding-top: 30px;
+    font-size: 60px;
+  }
+  .des{
+    padding-top: 30px;
+    font-family: "Birthstone Bounce", cursive;
+    font-size:100px;
+  }
+  .recomended{
+    font-family:YAFdtQNSRR0-0;
+    font-weight: 500;
+    font-size: 50px;
+    margin: 100px 50px;
+    border: 6px solid rgb(236, 26, 131);
+    background-color: rgb(243, 102, 156);
+    padding: 20px 10px;
+    color: black;
+    border-radius: 4rem;
+  }
+  .sobre{
+    width: 100%;
+    background-color: rgb(202, 201, 201);
+    padding: 70px 0;
+  }
+  .confirm{
+    font-family:YAFdtQNSRR0-0;
+    font-weight: 500;
+    font-size: 75px;
+    margin:0;
+    line-height: 6rem;
+    color: black;
+    padding: 0 60px;
+  }
+  .containn{
+    text-align: center;
+    padding-bottom: 10px;
+    
+  }
+  .btn2{
+    font-size: 25px;
+    width: 400px;
+    height: 70px;
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid rgba(119, 1, 1, 0.877);
+    border-radius: 3rem ;
+    color: rgb(248, 248, 248);
+    text-decoration: none;
+    background-color: rgba(119, 1, 1, 0.877);
+    margin-bottom: 15px;
+    text-align: center;
+  }
