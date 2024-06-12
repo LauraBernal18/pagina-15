@@ -1,107 +1,119 @@
-
-.container{
-    text-align: center;
+:root{
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-goldenrod: #daa520;
+  --color-goldenrodx: #d19f1f;
+  --linear-gradient: linear-gradient(rgba(0, 0, 0, 0.541),rgba(0, 0, 0, 0.418));
+  --font-family1: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
 }
-h1{
-    font-size: 230px;
-    font-family: "Birthstone Bounce", cursive;
-    font-weight: 550;
-    font-style: normal;
-    color: goldenrod;
-    text-align: center;
-    line-height: 12rem;
-
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Birthstone Bounce", cursive;;
 }
+
+body{
+  background-image: url("./img/bg/1dc787feb88c089cec970972aa27bd66.webp");
+background-size: 100vw auto;
+}
+
 
 .text{
     font-family:YAFdtQNSRR0-0;
     font-style: italic;
     text-align: center;
-    font-size: 50px;
-    padding: 20px 150px;
-    color: black;
+    font-size: 4vw;
+      color: var(--color-black);
 }
 
-h2{
-    text-align: center;
-    font-family: "Birthstone Bounce", cursive;
-    font-weight: 550;
-    color: goldenrod;
-    font-size: 130px;
-    padding-bottom: 20px;
-}
-hr{
-    height: 20px;
-    background-color: rgb(133, 129, 132);
-    border: 0;
-
-}
-.section3{
-    text-align: center;
-}
-img{
-    padding-top: 15px;
-}
-.villa{
-    padding-top: 15px;
-    width: 75%;
-    height: 75%;
-    border-radius: 2rem;
+.title15{
+  width: 60%;
+  height: auto;
 }
 
-.location, .people{
-    font-family:YAFdtQNSRR0-0;
+
+.date{
+    
     font-weight: 500;
-    font-size: 40px;
-    margin:0;
-    line-height: 3rem;
-    color: black;
+    color: var(--color-goldenrod);
+    font-size: 12vw;
+}
+
+.btn{
+  width: 35%;
+  height: 80px;
+  background-color: var(--color-goldenrodx);
+  border: 4px solid #daa520  ;
+  padding: 8px;
+  font-family: YAFdtQNSRR0-0;
+  font-size: 2.5em;
+  color: var(--color-white);
+  font-weight: bold;
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.btn:hover{
+  background-color: var(--color-goldenrod);
+  border: 4px solid  var(--color-goldenrodx) ;
+  color: aliceblue;
+}
+
+.btn a{
+  color: var(--color-white);
+  font-family: YAFdtQNSRR0-0;
+  text-decoration: none;
+
+}
+
+.location {
+  font-family:YAFdtQNSRR0-0;
+  font-weight: 500;
+  font-size: 40px;
+  margin:0;
+  line-height: 3rem;
+  color: black;
 }   
-.loc{
-    padding-top: 20px;
-    padding-bottom: 20px;
+
+.people{
+  font-family: YAFdtQNSRR0-0 ;
+  line-height: 0.5rem;
+
+  font-size: 5vw;
 }
-.contain{
-    text-align: center;
-    display: inline;
-  }
-  .btn1{
-    font-size: 25px;
-    width: 400px;
-    display: inline-block;
-    text-align: center;
-    margin-top: 15px;
-    padding: 10px 40px;
-    border: 2px solid rgba(119, 1, 1, 0.877);
-    border-radius: 2rem ;
-    color: rgb(248, 248, 248);
-    text-decoration: none;
-    background-color: rgba(119, 1, 1, 0.877);
-    margin-bottom: 15px;
-   
-  }
-  .people{
-    display: inline-block;
-    width: 38%;
-    padding-top: 30px;
-    font-size: 60px;
-  }
-  .des{
-    padding-top: 30px;
-    font-family: "Birthstone Bounce", cursive;
-    font-size:100px;
-  }
+.des{
+ 
+  font-size: 8vw;
+
+}
+
+
+
+
   .recomended{
-    font-family:YAFdtQNSRR0-0;
-    font-weight: 500;
-    font-size: 50px;
-    margin: 100px 50px;
-    border: 6px solid rgb(236, 26, 131);
-    background-color: rgb(243, 102, 156);
-    padding: 20px 10px;
-    color: black;
-    border-radius: 4rem;
+ 
+    background-image: url("./img/fondobtn.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+
   }
+
+  .textre{
+    font-family:YAFdtQNSRR0-0;
+    font-style: italic;
+    text-align: center;
+    font-size: 3vw;
+      color: var(--color-black);
+      padding-top: 0.5em;
+}
+
+
   .sobre{
     width: 100%;
     background-color: rgb(202, 201, 201);
@@ -136,3 +148,41 @@ img{
     margin-bottom: 15px;
     text-align: center;
   }
+
+
+
+  @media(max-width: 990px){
+    .text{
+      font-family:YAFdtQNSRR0-0;
+      font-style: italic;
+      text-align: center;
+      font-size: 6svw;
+        color: var(--color-black);
+  }
+
+    
+  .title15{
+    width: 80%;
+    height: auto;
+  }
+
+
+  .date{
+      
+      font-weight: 500;
+      color: var(--color-goldenrod);
+      font-size: 13vw;
+  }
+
+  .btn{
+    width: 35%;
+    height: 50px;
+    background-color: var(--color-goldenrod);
+    border: 4px solid var(--color-goldenrodx) ;
+    padding: 6px;
+    font-size: 1em;
+
+
+
+  }
+}
