@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap');
+
 :root{
   --color-black: #000000;
   --color-white: #ffffff;
@@ -5,24 +7,28 @@
   --color-goldenrodx: #d19f1f;
   --linear-gradient: linear-gradient(rgba(0, 0, 0, 0.541),rgba(0, 0, 0, 0.418));
   --font-family1: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  
+  --font-family2: "Signika Negative", sans-serif;
 }
 *{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   border: 0;
-  font-family: "Birthstone Bounce", cursive;;
+  font-family: "Birthstone Bounce", cursive;
 }
 
 body{
-  background-image: url("./img/bg/1dc787feb88c089cec970972aa27bd66.webp");
-background-size: 100vw auto;
+  background-size: 100vw 100%;
+  background-image: url("./img/bg/bg2.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 
+
 .text{
-    font-family:YAFdtQNSRR0-0;
+    font-family:var(--font-family2);
     font-style: italic;
     text-align: center;
     font-size: 4vw;
@@ -48,7 +54,7 @@ background-size: 100vw auto;
   background-color: var(--color-goldenrodx);
   border: 4px solid #daa520  ;
   padding: 8px;
-  font-family: YAFdtQNSRR0-0;
+  font-family: var(--font-family2);
   font-size: 2.5em;
   color: var(--color-white);
   font-weight: bold;
@@ -66,22 +72,22 @@ background-size: 100vw auto;
 
 .btn a{
   color: var(--color-white);
-  font-family: YAFdtQNSRR0-0;
+  font-family: var(--font-family2);
   text-decoration: none;
 
 }
 
 .location {
-  font-family:YAFdtQNSRR0-0;
+  font-family:var(--font-family2);
   font-weight: 500;
-  font-size: 40px;
+  font-size: 3vw;
   margin:0;
   line-height: 3rem;
   color: black;
 }   
 
 .people{
-  font-family: YAFdtQNSRR0-0 ;
+  font-family: var(--font-family2) ;
   line-height: 0.5rem;
 
   font-size: 5vw;
@@ -105,10 +111,10 @@ background-size: 100vw auto;
   }
 
   .textre{
-    font-family:YAFdtQNSRR0-0;
+    font-family:var(--font-family2);
     font-style: italic;
     text-align: center;
-    font-size: 3vw;
+    font-size: 3em;
       color: var(--color-black);
       padding-top: 0.5em;
 }
@@ -120,7 +126,7 @@ background-size: 100vw auto;
     padding: 70px 0;
   }
   .confirm{
-    font-family:YAFdtQNSRR0-0;
+    font-family:var(--font-family2);
     font-weight: 500;
     font-size: 75px;
     margin:0;
@@ -153,10 +159,10 @@ background-size: 100vw auto;
 
   @media(max-width: 990px){
     .text{
-      font-family:YAFdtQNSRR0-0;
+      font-family:var(--font-family2);
       font-style: italic;
       text-align: center;
-      font-size: 6svw;
+      font-size: 5.5vw;
         color: var(--color-black);
   }
 
@@ -166,7 +172,10 @@ background-size: 100vw auto;
     height: auto;
   }
 
-
+  .location{
+    font-size: 3.5vw;
+    line-height: 1.5rem;
+  }
   .date{
       
       font-weight: 500;
@@ -175,14 +184,20 @@ background-size: 100vw auto;
   }
 
   .btn{
-    width: 35%;
+    width: 40%;
     height: 50px;
     background-color: var(--color-goldenrod);
     border: 4px solid var(--color-goldenrodx) ;
-    padding: 6px;
+    padding: 4px;
     font-size: 1em;
-
-
-
   }
+
+  .textre{
+    font-size: 1em;
+}
+
+
+
+
+
 }
