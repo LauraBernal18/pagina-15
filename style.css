@@ -19,9 +19,9 @@
 
 body{
   background-size: 100vw 100%;
-  background-image: url("./img/bg/bg3.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url("./img/bg/bg5.jpeg");
+  /* background-repeat: no-repeat; */
+  background-size: contain;
 
 }
 
@@ -89,15 +89,11 @@ body{
 .people{
   font-family: var(--font-family2) ;
   line-height: 0.5rem;
-
   font-size: 4vw;
 }
 .des{
- 
   font-size: 8vw;
-
 }
-
 
 
 
@@ -120,49 +116,12 @@ body{
 }
 
 
-  .sobre{
-    width: 100%;
-    background-color: rgb(202, 201, 201);
-    padding: 70px 0;
-  }
-  .confirm{
-    font-family:var(--font-family2);
-    font-weight: 500;
-    font-size: 75px;
-    margin:0;
-    line-height: 6rem;
-    color: black;
-    padding: 0 60px;
-  }
-  .containn{
-    text-align: center;
-    padding-bottom: 10px;
-    
-  }
-  .btn2{
-    font-size: 25px;
-    width: 400px;
-    height: 70px;
-    display: inline-block;
-    margin-top: 15px;
-    padding: 10px 40px;
-    border: 2px solid rgba(119, 1, 1, 0.877);
-    border-radius: 3rem ;
-    color: rgb(248, 248, 248);
-    text-decoration: none;
-    background-color: rgba(119, 1, 1, 0.877);
-    margin-bottom: 15px;
-    text-align: center;
-  }
-
-
-
   @media(max-width: 990px){
     .text{
       font-family:var(--font-family2);
       font-style: italic;
       text-align: center;
-      font-size: 5.5vw;
+      font-size: 6.2vw;
         color: var(--color-black);
   }
 
