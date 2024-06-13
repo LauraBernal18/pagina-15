@@ -19,9 +19,9 @@
 
 body{
   background-size: 100vw 100%;
-  background-image: url("./img/bg/bg5.jpeg");
+  background-image: url("./img/bg/bg6.jpeg");
   /* background-repeat: no-repeat; */
-  background-size: contain;
+  background-size: cover;
 
 }
 
@@ -152,7 +152,15 @@ body{
   }
 
   .textre{
-    font-size: 1em;
+    font-size: 1.5em;
+}
+
+.people{
+  line-height: 0.1rem;
+  font-size: 6vw;
+}
+.des{
+  font-size: 11vw;
 }
 
 
