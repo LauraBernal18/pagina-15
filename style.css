@@ -80,7 +80,7 @@ body{
 .location {
   font-family:var(--font-family2);
   font-weight: 500;
-  font-size: 3vw;
+  font-size: 5vw;
   margin:0;
   line-height: 3rem;
   color: black;
@@ -90,7 +90,7 @@ body{
   font-family: var(--font-family2) ;
   line-height: 0.5rem;
 
-  font-size: 5vw;
+  font-size: 4vw;
 }
 .des{
  
@@ -173,7 +173,7 @@ body{
   }
 
   .location{
-    font-size: 3.5vw;
+    font-size: 5.4vw;
     line-height: 1.5rem;
   }
   .date{
